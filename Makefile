@@ -1,5 +1,9 @@
+ifndef VERBOSE
+.SILENT:
+endif
+
 clean:
-	rm fizzbuzz
+	rm -f fizzbuzz
 
 build: clean
 	cobc -x -free fizzbuzz.cob
