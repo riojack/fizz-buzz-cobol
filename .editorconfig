@@ -1,0 +1,7 @@
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.cob]
+end_of_line = crlf
+indent_style = tab
